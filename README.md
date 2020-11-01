@@ -1,4 +1,4 @@
-# Emotions in Motion ~ A comment creator for the Soul.
+# Emotions in Motion API
 This repository serves as a special API that creates multiple
 comments. It allows users to register and create comments as they wish as well
 as an additional special feature of liking an unliking comments.
