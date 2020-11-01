@@ -32,7 +32,8 @@ ensure that my server was always listening to its server devport.
 -   JSX
 #### Links
 -   Deployed Front-End:
--   Deployed Back-End:
+-   Deployed Back-End: <https://emotions-in-motion-api.herokuapp.com/>
+
 -   Front-End Repository Link: <https://github.com/Max-spec007/Emotions-in-Motion-client>
 -   Back-End Repository Link: <https://github.com/Max-spec007/Emotions-in-Motion-api>
 ## Technical Details
