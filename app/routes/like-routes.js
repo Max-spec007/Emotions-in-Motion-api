@@ -1,9 +1,6 @@
 const express = require('express')
 const router = express.Router()
 const passport = require('passport')
-// const customErrors = require('../../lib/custom_errors')
-// const requireOwnership = customErrors.requireOwnership
-
 const Comment = require('./../models/comment')
 const handle404 = require('../../lib/custom_errors')
 
@@ -34,7 +31,6 @@ router.delete('/likes/:id', requireToken, (req, res, next) => {
   Comment.findById(req.params.id)
     .then(handle404)
     .then(comment => {
-      console.log('Comment', comment)
       const likeArray = comment.likes
       const thisLike = likeArray.filter(like => {
         if (like.owner.toString() === req.user.id.toString()) {
